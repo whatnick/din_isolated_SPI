@@ -1,0 +1,5 @@
+(fp_lib_table
+  (lib (name SI8661AB-B-IS1)(type Legacy)(uri "$(KIPRJMOD)/SI8661.pretty/SI8661AB-B-IS1.mod")(options "")(descr ""))
+  (lib (name wemos_d1_mini)(type KiCad)(uri "$(KIPRJMOD)/wemos_d1_mini.pretty")(options "")(descr ""))
+  (lib (name BME280)(type Legacy)(uri "$(KIPRJMOD)/BME280.mod")(options "")(descr ""))
+)
