@@ -1,4 +1,4 @@
-update=29/10/2017 8:45:50 PM
+update=30/10/2017 1:17:08 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -23,6 +23,8 @@ ModuleOutlineThickness=0.150000000000
 [cvpcb]
 version=1
 NetIExt=net
+[general]
+version=1
 [eeschema]
 version=1
 LibDir=
@@ -59,5 +61,5 @@ LibName29=valves
 LibName30=SI8661AB-B-IS1
 LibName31=wemos_mini
 LibName32=BME280
-[general]
-version=1
+LibName33=whatnick
+LibName34=graphic_symbols

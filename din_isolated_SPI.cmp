@@ -1,0 +1,155 @@
+Cmp-Mod V01 Created by PcbNew   date = 30/10/2017 1:20:55 AM
+
+BeginCmp
+TimeStamp = 59F6EB08
+Path = /59E7536C
+Reference = U1;
+ValeurCmp = SI8661AB-B-IS1;
+IdModule  = Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F6DED5
+Path = /59F5EC0C
+Reference = LOGO1;
+ValeurCmp = Logo_Open_Hardware_Small;
+IdModule  = Symbols:OSHW-Symbol_6.7x6mm_SilkScreen;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F6DEB4
+Path = /59F5EAB7
+Reference = G1;
+ValeurCmp = LOGO;
+IdModule  = Whatnick_logo:Whatnick_logo;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F603AF
+Path = /59F54B5F
+Reference = C2;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F6037E
+Path = /59F54AF1
+Reference = C1;
+ValeurCmp = 100nF;
+IdModule  = Capacitors_SMD:C_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F602AD
+Path = /59F55195
+Reference = R1;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F6027C
+Path = /59F551F8
+Reference = R2;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F6024B
+Path = /59F55216
+Reference = R3;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F6021A
+Path = /59F55244
+Reference = R4;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F601E9
+Path = /59F55297
+Reference = R5;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F601B8
+Path = /59F5A72F
+Reference = R7;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F60187
+Path = /59F5A735
+Reference = R8;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F60156
+Path = /59F5A73B
+Reference = R9;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F60125
+Path = /59F5A741
+Reference = R10;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F600F4
+Path = /59F5A747
+Reference = R11;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F600C3
+Path = /59F5A74D
+Reference = R12;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F60092
+Path = /59F552BB
+Reference = R6;
+ValeurCmp = 50R;
+IdModule  = Resistors_SMD:R_0402;
+EndCmp
+
+BeginCmp
+TimeStamp = 59F5B72E
+Path = /59F4FE2A
+Reference = J1;
+ValeurCmp = CONN_01X10;
+IdModule  = Connectors_Molex:Molex_MicroLatch-53253-1070_10x2.00mm_Straight;
+EndCmp
+
+BeginCmp
+TimeStamp = 59EFC25D
+Path = /59E75C06
+Reference = U4;
+ValeurCmp = WeMos_mini;
+IdModule  = wemos_d1_mini:D1_mini_board;
+EndCmp
+
+EndListe

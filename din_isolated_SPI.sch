@@ -31,6 +31,8 @@ LIBS:valves
 LIBS:SI8661AB-B-IS1
 LIBS:wemos_mini
 LIBS:BME280
+LIBS:whatnick
+LIBS:graphic_symbols
 LIBS:din_isolated_SPI-cache
 EELAYER 26 0
 EELAYER END
@@ -52,7 +54,7 @@ U 1 1 59E7536C
 P 4700 3200
 F 0 "U1" H 4700 4070 50  0000 C CNN
 F 1 "SI8661AB-B-IS1" H 4700 3979 50  0000 C CNN
-F 2 "Housings_SOIC:SOIC-16W_7.5x10.3mm_Pitch1.27mm" H 4700 3200 50  0001 L BNN
+F 2 "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm" H 4700 3200 50  0001 L BNN
 F 3 "Silicon Labs" H 4700 3200 50  0001 L BNN
 F 4 "2.12 USD" H 4700 3200 50  0001 L BNN "Price"
 F 5 "Warning" H 4700 3200 50  0001 L BNN "Availability"
@@ -499,4 +501,26 @@ Text GLabel 5100 4450 1    60   Input ~ 0
 GND_C
 Text GLabel 4200 4450 1    60   Input ~ 0
 GND_I
+$Comp
+L LOGO G1
+U 1 1 59F5EAB7
+P 6900 4850
+F 0 "G1" H 6900 4748 60  0001 C CNN
+F 1 "LOGO" H 6900 4952 60  0001 C CNN
+F 2 "Whatnick_logo:Whatnick_logo" H 6900 4850 60  0001 C CNN
+F 3 "" H 6900 4850 60  0001 C CNN
+	1    6900 4850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Logo_Open_Hardware_Small LOGO1
+U 1 1 59F5EC0C
+P 7500 4850
+F 0 "LOGO1" H 7500 5125 50  0001 C CNN
+F 1 "Logo_Open_Hardware_Small" H 7500 4625 50  0001 C CNN
+F 2 "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen" H 7500 4850 50  0001 C CNN
+F 3 "" H 7500 4850 50  0001 C CNN
+	1    7500 4850
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
