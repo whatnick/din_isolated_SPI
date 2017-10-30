@@ -1,0 +1,33 @@
+G04 Gerber job file with board parameters*
+%TF.FileFunction,JobInfo*%
+%TF.Part,SinglePCB*%
+G04 Single PCB fabrication instructions*
+%TF.GenerationSoftware,KiCad,Pcbnew,(2017-09-19 revision dddaa7e69)-makepkg*%
+%TF.CreationDate,2017-10-30T22:08:35+10:30*%
+%TF.ProjectId,din_isolated_SPI,64696E5F69736F6C617465645F535049,rev?*%
+%MOMM*%
+G04 Overall board parameters*
+%TJ.B.Size.X,31.925*%
+%TJ.B.Size.Y,40.688*%
+%TJ.B.LayerNum,2*%
+%TJ.B.Overall.Thickness,1.600*%
+%TJ.B.Legend.Present,Both*%
+%TJ.B.SolderMask.Present,Both*%
+G04 board design rules*
+%TJ.D.PadToPad.Outer,0.150*%
+%TJ.D.PadToTrack.Outer,0.150*%
+%TJ.D.TrackToTrack.Outer,0.150*%
+%TJ.D.MinLineWidth.Outer,0.250*%
+%TJ.D.TrackToRegion.Outer,0.508*%
+%TJ.D.RegionToRegion.Outer,0.508*%
+G04 Layer Structure*
+%TJ.L."Copper,L1,Top",Positive,din_isolated_SPI-F.Cu.gtl*%
+%TJ.L."Copper,L2,Bot",Positive,din_isolated_SPI-B.Cu.gbl*%
+%TJ.L."SolderPaste,Bot",Positive,din_isolated_SPI-B.Paste.gbp*%
+%TJ.L."SolderPaste,Top",Positive,din_isolated_SPI-F.Paste.gtp*%
+%TJ.L."Legend,Bot",Positive,din_isolated_SPI-B.SilkS.gbo*%
+%TJ.L."Legend,Top",Positive,din_isolated_SPI-F.SilkS.gto*%
+%TJ.L."SolderMask,Bot",Negative,din_isolated_SPI-B.Mask.gbs*%
+%TJ.L."SolderMask,Top",Negative,din_isolated_SPI-F.Mask.gts*%
+%TJ.L."Profile",Positive,din_isolated_SPI-Edge.Cuts.gm1*%
+M02*
