@@ -2,7 +2,7 @@
 
   (general
     (thickness 1.6)
-    (drawings 56)
+    (drawings 57)
     (tracks 161)
     (zones 0)
     (modules 19)
@@ -62,8 +62,8 @@
     (grid_origin 130.302 80.137)
     (visible_elements 7FFFF7FF)
     (pcbplotparams
-      (layerselection 0x00030_ffffffff)
-      (usegerberextensions false)
+      (layerselection 0x010fc_ffffffff)
+      (usegerberextensions true)
       (usegerberattributes true)
       (usegerberadvancedattributes true)
       (creategerberjobfile true)
@@ -85,9 +85,9 @@
       (subtractmaskfromsilk false)
       (outputformat 1)
       (mirror false)
-      (drillshape 1)
+      (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ""))
+      (outputdirectory gerbers))
   )
 
   (net 0 "")
@@ -188,7 +188,7 @@
     (tags "SOIC 1.27")
     (path /59E7536C)
     (attr smd)
-    (fp_text reference U1 (at 0 -6 270) (layer F.SilkS)
+    (fp_text reference U1 (at 0 -6.731 270) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value SI8661AB-B-IS1 (at 0 6 270) (layer F.Fab)
@@ -1169,6 +1169,7 @@
     )
   )
 
+  (gr_circle (center 138.43 76.394039) (end 138.684 76.902039) (layer F.SilkS) (width 0.2))
   (gr_text ~RST (at 118.399047 59.491873) (layer F.SilkS) (tstamp 59F70D29)
     (effects (font (size 0.8 0.8) (thickness 0.2)))
   )
