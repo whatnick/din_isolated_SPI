@@ -1,12 +1,12 @@
 G04 #@! TF.GenerationSoftware,KiCad,Pcbnew,(2017-09-19 revision dddaa7e69)-makepkg*
-G04 #@! TF.CreationDate,2017-11-22T19:34:01+10:30*
+G04 #@! TF.CreationDate,2017-11-22T21:12:14+10:30*
 G04 #@! TF.ProjectId,din_isolated_SPI,64696E5F69736F6C617465645F535049,rev?*
 G04 #@! TF.SameCoordinates,Original*
 G04 #@! TF.FileFunction,Soldermask,Top*
 G04 #@! TF.FilePolarity,Negative*
 %FSLAX46Y46*%
 G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
-G04 Created by KiCad (PCBNEW (2017-09-19 revision dddaa7e69)-makepkg) date 11/22/17 19:34:01*
+G04 Created by KiCad (PCBNEW (2017-09-19 revision dddaa7e69)-makepkg) date 11/22/17 21:12:14*
 %MOMM*%
 %LPD*%
 G01*
