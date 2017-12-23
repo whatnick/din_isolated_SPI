@@ -30,7 +30,7 @@
     (46 B.CrtYd user hide)
     (47 F.CrtYd user)
     (48 B.Fab user hide)
-    (49 F.Fab user hide)
+    (49 F.Fab user)
   )
 
   (setup
@@ -1173,7 +1173,7 @@
     (effects (font (size 1 1) (thickness 0.2)) (justify mirror))
   )
   (dimension 31.75 (width 0.3) (layer F.Fab)
-    (gr_text "31.750 mm" (at 132.715 43.1) (layer F.Fab) (tstamp 5A3E3E3B)
+    (gr_text "31.750 mm" (at 132.715 43.1) (layer F.Fab) (tstamp 5A3E94DD)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 148.59 51.562) (xy 148.59 41.75)))
@@ -1185,7 +1185,7 @@
     (arrow2b (pts (xy 116.84 44.45) (xy 117.966504 43.863579)))
   )
   (dimension 40.513 (width 0.3) (layer F.Fab)
-    (gr_text "40.513 mm" (at 158.32315 71.1835 270) (layer F.Fab) (tstamp 5A3E3E3C)
+    (gr_text "40.513 mm" (at 158.32315 71.1835 270) (layer F.Fab) (tstamp 5A3E94DE)
       (effects (font (size 1.5 1.5) (thickness 0.3)))
     )
     (feature1 (pts (xy 147.955 91.44) (xy 159.67315 91.44)))
