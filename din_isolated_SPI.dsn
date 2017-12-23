@@ -3,7 +3,7 @@
     (string_quote ")
     (space_in_quoted_tokens on)
     (host_cad "KiCad's Pcbnew")
-    (host_version "(2017-06-19 revision 6733101c6)-makepkg")
+    (host_version "(2017-09-19 revision dddaa7e69)-makepkg")
   )
   (resolution um 10)
   (unit um)
@@ -21,44 +21,52 @@
       )
     )
     (boundary
-      (path pcb 0  148590 -91440  116840 -91440  116840 -45720  148590 -45720
-            148590 -91440)
+      (path pcb 0  148590 -51562  148590 -90805  147955 -91440  117475 -91440
+            116840 -90805  116840 -51562  117475 -50927  147955 -50927  148590 -51562)
     )
+    (plane GND_C (polygon F.Cu 0  117602 -77597  148082 -77597  148082 -52197  117602 -52197))
+    (plane GND_I (polygon F.Cu 0  121412 -80137  139192 -80137  139192 -86995  121412 -86995))
+    (plane GND_I (polygon B.Cu 0  121412 -80137  139192 -80137  139192 -86995  121412 -86995))
+    (plane GND_C (polygon B.Cu 0  117602 -77597  148082 -77597  148082 -52197  117602 -52197))
     (keepout "" (polygon signal 0  127000 -77470  127000 -79502  138430 -79502  138430 -77470
             127000 -77470))
     (via "Via[0-1]_800:400_um")
     (rule
       (width 250)
-      (clearance 200.1)
-      (clearance 200.1 (type default_smd))
-      (clearance 50 (type smd_smd))
+      (clearance 150.1)
+      (clearance 150.1 (type default_smd))
+      (clearance 37.5 (type smd_smd))
     )
   )
   (placement
+    (component Resistors_SMD:R_0603
+      (place R12 128651 -84518.5 front 90 (PN 50R))
+      (place R6 125286 -67013.7 front 180 (PN 50R))
+      (place R2 125286 -68558.8 front 180 (PN 50R))
+      (place R4 139954 -66675 front 0 (PN 50R))
+      (place R9 133223 -84518.5 front 90 (PN 50R))
+      (place R11 130175 -84518.5 front 90 (PN 50R))
+      (place R8 134747 -84518.5 front 90 (PN 50R))
+    )
+    (component Capacitors_SMD:C_0603
+      (place C2 137732 -73787 front 0 (PN 100nF))
+    )
+    (component Capacitors_SMD:C_0603::1
+      (place C1 138684 -83439 front 0 (PN 100nF))
+    )
+    (component Resistors_SMD:R_0603::1
+      (place R1 125286 -65468.5 front 180 (PN 50R))
+      (place R3 125286 -70104 front 180 (PN 50R))
+      (place R7 136271 -84518.5 front 90 (PN 50R))
+      (place R10 131699 -84518.5 front 90 (PN 50R))
+      (place R5 139954 -68453 front 0 (PN 50R))
+    )
     (component "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"
       (place U1 132715 -78486 front 270 (PN "SI8661AB-B-IS1"))
     )
-    (component Capacitors_SMD:C_0402
-      (place C2 137732 -73787 front 0 (PN 100nF))
-    )
-    (component Capacitors_SMD:C_0402::1
-      (place C1 137668 -83312 front 0 (PN 100nF))
-    )
-    (component Resistors_SMD:R_0402
-      (place R1 125286 -65468.5 front 180 (PN 50R))
-      (place R3 125286 -70104 front 180 (PN 50R))
-      (place R5 139954 -68453 front 0 (PN 50R))
-      (place R8 134620 -84518.5 front 90 (PN 50R))
-      (place R10 132080 -84518.5 front 90 (PN 50R))
-      (place R12 129540 -84518.5 front 90 (PN 50R))
-    )
-    (component Resistors_SMD:R_0402::1
-      (place R2 125286 -68558.8 front 180 (PN 50R))
-      (place R4 139954 -66675 front 0 (PN 50R))
-      (place R7 135890 -84518.5 front 90 (PN 50R))
-      (place R9 133350 -84518.5 front 90 (PN 50R))
-      (place R11 130810 -84518.5 front 90 (PN 50R))
-      (place R6 125286 -67013.7 front 180 (PN 50R))
+    (component "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen"
+      (place LOGO1 132842 -66040 back 0 (PN Logo_Open_Hardware_Small))
+      (place G1 132588 -59309 back 0 (PN LOGO))
     )
     (component "Connectors_Molex:Molex_MicroLatch-53253-1070_10x2.00mm_Straight"
       (place J1 141732 -89789 front 180 (PN CONN_01X10))
@@ -68,6 +76,62 @@
     )
   )
   (library
+    (image Resistors_SMD:R_0603
+      (outline (path signal 50  1250 -700  -1250 -700))
+      (outline (path signal 50  1250 -700  1250 700))
+      (outline (path signal 50  -1250 700  -1250 -700))
+      (outline (path signal 50  -1250 700  1250 700))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin Rect[T]Pad_500x900_um 2 750 0)
+      (pin Rect[T]Pad_500x900_um 1 -750 0)
+    )
+    (image Capacitors_SMD:C_0603
+      (outline (path signal 50  1400 -650  -1400 -650))
+      (outline (path signal 50  1400 -650  1400 650))
+      (outline (path signal 50  -1400 650  -1400 -650))
+      (outline (path signal 50  -1400 650  1400 650))
+      (outline (path signal 120  350 -600  -350 -600))
+      (outline (path signal 120  -350 600  350 600))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  -800 -400  -800 400))
+      (pin Rect[T]Pad_800x750_um 2 750 0)
+      (pin Rect[T]Pad_800x750_um 1 -750 0)
+    )
+    (image Capacitors_SMD:C_0603::1
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  -350 600  350 600))
+      (outline (path signal 120  350 -600  -350 -600))
+      (outline (path signal 50  -1400 650  1400 650))
+      (outline (path signal 50  -1400 650  -1400 -650))
+      (outline (path signal 50  1400 -650  1400 650))
+      (outline (path signal 50  1400 -650  -1400 -650))
+      (pin Rect[T]Pad_800x750_um 1 -750 0)
+      (pin Rect[T]Pad_800x750_um 2 750 0)
+    )
+    (image Resistors_SMD:R_0603::1
+      (outline (path signal 100  -800 -400  -800 400))
+      (outline (path signal 100  800 -400  -800 -400))
+      (outline (path signal 100  800 400  800 -400))
+      (outline (path signal 100  -800 400  800 400))
+      (outline (path signal 120  500 -680  -500 -680))
+      (outline (path signal 120  -500 680  500 680))
+      (outline (path signal 50  -1250 700  1250 700))
+      (outline (path signal 50  -1250 700  -1250 -700))
+      (outline (path signal 50  1250 -700  1250 700))
+      (outline (path signal 50  1250 -700  -1250 -700))
+      (pin Rect[T]Pad_500x900_um 1 -750 0)
+      (pin Rect[T]Pad_500x900_um 2 750 0)
+    )
     (image "Housings_SOIC:SOIC-16_3.9x9.9mm_Pitch1.27mm"
       (outline (path signal 150  -2075 5050  -3450 5050))
       (outline (path signal 150  -2075 -5075  2075 -5075))
@@ -102,61 +166,7 @@
       (pin Rect[T]Pad_1500x600_um 2 -2700 3175)
       (pin Rect[T]Pad_1500x600_um 1 -2700 4445)
     )
-    (image Capacitors_SMD:C_0402
-      (outline (path signal 100  -500 -250  -500 250))
-      (outline (path signal 100  500 -250  -500 -250))
-      (outline (path signal 100  500 250  500 -250))
-      (outline (path signal 100  -500 250  500 250))
-      (outline (path signal 120  250 470  -250 470))
-      (outline (path signal 120  -250 -470  250 -470))
-      (outline (path signal 50  -1000 400  1000 400))
-      (outline (path signal 50  -1000 400  -1000 -400))
-      (outline (path signal 50  1000 -400  1000 400))
-      (outline (path signal 50  1000 -400  -1000 -400))
-      (pin Rect[T]Pad_600x500_um 1 -550 0)
-      (pin Rect[T]Pad_600x500_um 2 550 0)
-    )
-    (image Capacitors_SMD:C_0402::1
-      (outline (path signal 50  1000 -400  -1000 -400))
-      (outline (path signal 50  1000 -400  1000 400))
-      (outline (path signal 50  -1000 400  -1000 -400))
-      (outline (path signal 50  -1000 400  1000 400))
-      (outline (path signal 120  -250 -470  250 -470))
-      (outline (path signal 120  250 470  -250 470))
-      (outline (path signal 100  -500 250  500 250))
-      (outline (path signal 100  500 250  500 -250))
-      (outline (path signal 100  500 -250  -500 -250))
-      (outline (path signal 100  -500 -250  -500 250))
-      (pin Rect[T]Pad_600x500_um 2 550 0)
-      (pin Rect[T]Pad_600x500_um 1 -550 0)
-    )
-    (image Resistors_SMD:R_0402
-      (outline (path signal 100  -500 -250  -500 250))
-      (outline (path signal 100  500 -250  -500 -250))
-      (outline (path signal 100  500 250  500 -250))
-      (outline (path signal 100  -500 250  500 250))
-      (outline (path signal 120  250 530  -250 530))
-      (outline (path signal 120  -250 -530  250 -530))
-      (outline (path signal 50  -800 450  800 450))
-      (outline (path signal 50  -800 450  -800 -450))
-      (outline (path signal 50  800 -450  800 450))
-      (outline (path signal 50  800 -450  -800 -450))
-      (pin Rect[T]Pad_400x600_um 1 -450 0)
-      (pin Rect[T]Pad_400x600_um 2 450 0)
-    )
-    (image Resistors_SMD:R_0402::1
-      (outline (path signal 50  800 -450  -800 -450))
-      (outline (path signal 50  800 -450  800 450))
-      (outline (path signal 50  -800 450  -800 -450))
-      (outline (path signal 50  -800 450  800 450))
-      (outline (path signal 120  -250 -530  250 -530))
-      (outline (path signal 120  250 530  -250 530))
-      (outline (path signal 100  -500 250  500 250))
-      (outline (path signal 100  500 250  500 -250))
-      (outline (path signal 100  500 -250  -500 -250))
-      (outline (path signal 100  -500 -250  -500 250))
-      (pin Rect[T]Pad_400x600_um 2 450 0)
-      (pin Rect[T]Pad_400x600_um 1 -450 0)
+    (image "Symbols:OSHW-Symbol_6.7x6mm_SilkScreen"
     )
     (image "Connectors_Molex:Molex_MicroLatch-53253-1070_10x2.00mm_Straight"
       (outline (path signal 120  19750 -400  19750 -2300))
@@ -277,12 +287,12 @@
       (shape (circle B.Cu 1800))
       (attach off)
     )
-    (padstack Rect[T]Pad_400x600_um
-      (shape (rect F.Cu -200 -300 200 300))
+    (padstack Rect[T]Pad_500x900_um
+      (shape (rect F.Cu -250 -450 250 450))
       (attach off)
     )
-    (padstack Rect[T]Pad_600x500_um
-      (shape (rect F.Cu -300 -250 300 250))
+    (padstack Rect[T]Pad_800x750_um
+      (shape (rect F.Cu -400 -375 400 375))
       (attach off)
     )
     (padstack Rect[T]Pad_1500x600_um
@@ -341,25 +351,25 @@
       (pins R1-2 U4-12)
     )
     (net "Net-(R6-Pad1)"
-      (pins U1-7 R6-1)
+      (pins R6-1 U1-7)
     )
     (net MISO_E
       (pins R12-1 J1-6)
     )
     (net "Net-(R12-Pad2)"
-      (pins U1-10 R12-2)
+      (pins R12-2 U1-10)
     )
     (net "Net-(R11-Pad2)"
-      (pins U1-11 R11-2)
+      (pins R11-2 U1-11)
     )
     (net CS2_E
       (pins R11-1 J1-3)
     )
     (net "Net-(R10-Pad2)"
-      (pins U1-12 R10-2)
+      (pins R10-2 U1-12)
     )
     (net "Net-(R9-Pad2)"
-      (pins U1-13 R9-2)
+      (pins R9-2 U1-13)
     )
     (net CS1_E
       (pins R10-1 J1-8)
@@ -368,31 +378,31 @@
       (pins R8-1 J1-7)
     )
     (net "Net-(R8-Pad2)"
-      (pins U1-14 R8-2)
+      (pins R8-2 U1-14)
     )
     (net "Net-(R7-Pad2)"
-      (pins U1-15 R7-2)
+      (pins R7-2 U1-15)
     )
     (net CLK_E
       (pins R7-1 J1-5)
     )
     (net "Net-(R5-Pad1)"
-      (pins U1-6 R5-1)
+      (pins R5-1 U1-6)
     )
     (net "Net-(R4-Pad1)"
-      (pins U1-5 R4-1)
+      (pins R4-1 U1-5)
     )
     (net "Net-(R3-Pad1)"
-      (pins U1-4 R3-1)
+      (pins R3-1 U1-4)
     )
     (net "Net-(R2-Pad1)"
-      (pins U1-3 R2-1)
+      (pins R2-1 U1-3)
     )
     (net "Net-(R1-Pad1)"
-      (pins U1-2 R1-1)
+      (pins R1-1 U1-2)
     )
     (net 3V3_I
-      (pins U1-16 C1-1 J1-10)
+      (pins C1-1 U1-16 J1-10)
     )
     (net CS0_W
       (pins R3-2 U4-15)
@@ -401,13 +411,13 @@
       (pins R9-1 J1-4)
     )
     (net GND_C
-      (pins U1-8 C2-2 J1-2 U4-2)
+      (pins C2-2 U1-8 J1-2 U4-2)
     )
     (net GND_I
-      (pins U1-9 C1-2 J1-9)
+      (pins C1-2 U1-9 J1-9)
     )
     (net 3V3_C
-      (pins U1-1 C2-1 J1-1 U4-16)
+      (pins C2-1 U1-1 J1-1 U4-16)
     )
     (class kicad_default "" CLK_E CLK_W CS0_E CS0_W CS1_E CS1_W CS2_E CS2_W
       MISO_E MISO_W MOSI_E MOSI_W "Net-(R1-Pad1)" "Net-(R10-Pad2)" "Net-(R11-Pad2)"
@@ -420,7 +430,7 @@
       )
       (rule
         (width 250)
-        (clearance 200.1)
+        (clearance 150.1)
       )
     )
     (class Power 3V3_C 3V3_I GND_C GND_I

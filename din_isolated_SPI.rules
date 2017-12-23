@@ -11,26 +11,26 @@
     (via_costs 50)
     (plane_via_costs 5)
     (start_ripup_costs 100)
-    (start_pass_no 1)
+    (start_pass_no 5688)
     (layer_rule F.Cu
       (active on)
       (preferred_direction vertical)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 2.4)
+      (against_preferred_direction_trace_costs 2.3)
     )
     (layer_rule B.Cu
       (active on)
       (preferred_direction horizontal)
       (preferred_direction_trace_costs 1.0)
-      (against_preferred_direction_trace_costs 1.7)
+      (against_preferred_direction_trace_costs 1.8)
     )
   )
   (rule
     (width 250.0)
-    (clear 200.2)
+    (clear 150.2)
     (clear 125.0 (type smd_to_turn_gap))
     (clear 500.2 (type default_Power))
-    (clear 50.0 (type smd_smd))
+    (clear 37.6 (type smd_smd))
     (clear 500.2 (type smd_Power))
     (clear 500.2 (type "kicad_default"_Power))
     (clear 500.2 (type Power_Power))
@@ -87,7 +87,7 @@
     )
   )
   (class Power
-    "3V3_I" "GND_C" "GND_I" "3V3_C"
+    "GND_C" "GND_I" "3V3_I" "3V3_C"
     (clearance_class Power)
     (via_rule Power)
     (rule
