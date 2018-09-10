@@ -1,0 +1,7 @@
+(sym_lib_table
+  (lib (name din_isolated_SPI-rescue)(type Legacy)(uri ${KIPRJMOD}/din_isolated_SPI-rescue.lib)(options "")(descr ""))
+  (lib (name SI8661AB-B-IS1)(type Legacy)(uri ${KIPRJMOD}/SI8661AB-B-IS1.lib)(options "")(descr ""))
+  (lib (name wemos_mini)(type Legacy)(uri ${KIPRJMOD}/wemos_mini.lib)(options "")(descr ""))
+  (lib (name BME280)(type Legacy)(uri ${KIPRJMOD}/BME280.lib)(options "")(descr ""))
+  (lib (name whatnick)(type Legacy)(uri ${KIPRJMOD}/whatnick.lib)(options "")(descr ""))
+)
