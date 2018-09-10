@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_isolated_SPI\din_isolated_SPI.sch</source>
-    <date>10/09/2018 6:53:33 PM</date>
+    <date>10/09/2018 7:27:40 PM</date>
     <tool>Eeschema (2018-02-15 revision 29b28de31)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -58,6 +58,9 @@
     <comp ref="C1">
       <value>100nF</value>
       <footprint>Capacitors_SMD:C_0603</footprint>
+      <fields>
+        <field name="manf#">0201ZD104KAT2A</field>
+      </fields>
       <libsource lib="device" part="C_Small"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F54AF1</tstamp>
@@ -159,6 +162,9 @@
     <comp ref="G1">
       <value>LOGO</value>
       <footprint>Whatnick_logo:Whatnick_logo</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="whatnick" part="LOGO"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F5EAB7</tstamp>
@@ -166,6 +172,9 @@
     <comp ref="LOGO1">
       <value>Logo_Open_Hardware_Small</value>
       <footprint>Symbols:OSHW-Symbol_6.7x6mm_SilkScreen</footprint>
+      <fields>
+        <field name="DNP"> </field>
+      </fields>
       <libsource lib="din_isolated_SPI-rescue" part="Logo_Open_Hardware_Small-RESCUE-din_isolated_SPI"/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>59F5EC0C</tstamp>

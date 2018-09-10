@@ -39,6 +39,7 @@ F 0 "U4" H 4650 2087 60  0000 C CNN
 F 1 "WeMos_mini" H 4650 1981 60  0000 C CNN
 F 2 "wemos_d1_mini:D1_mini_board" H 5200 750 60  0001 C CNN
 F 3 "" H 5200 750 60  0000 C CNN
+F 4 "CES-108-01-T-S" H 4650 1450 50  0001 C CNN "manf#"
 	1    4650 1450
 	1    0    0    -1  
 $EndComp
@@ -50,6 +51,7 @@ F 0 "J1" V 4772 4945 50  0000 C CNN
 F 1 "CONN_01X10" V 4863 4945 50  0000 C CNN
 F 2 "Connectors_Molex:Molex_MicroLatch-53253-1070_10x2.00mm_Straight" H 4650 4950 50  0001 C CNN
 F 3 "" H 4650 4950 50  0001 C CNN
+F 4 "53290-1080" H 4650 4950 50  0001 C CNN "manf#"
 	1    4650 4950
 	0    1    1    0   
 $EndComp
