@@ -1,0 +1,21 @@
+### Module positions - created on 05/29/19 22:28:28 ###
+### Printed by Pcbnew version kicad (2018-02-15 revision 29b28de31)-makepkg
+## Unit = inches, Angle = deg.
+## Side : All
+# Ref     Val             Package                             PosX       PosY       Rot  Side
+C1        100nF           C_0603                            5.4600    -3.2850    0.0000  top
+C2        100nF           C_0603                            5.4225    -2.9050    0.0000  top
+R1        50R             R_0603                            4.9325    -2.5775  180.0000  top
+R2        50R             R_0603                            4.9325    -2.6992  180.0000  top
+R3        50R             R_0603                            4.9325    -2.7600  180.0000  top
+R4        50R             R_0603                            5.5100    -2.6250    0.0000  top
+R5        50R             R_0603                            5.5100    -2.6950    0.0000  top
+R6        50R             R_0603                            4.9325    -2.6383  180.0000  top
+R7        50R             R_0603                            5.3650    -3.3275   90.0000  top
+R8        50R             R_0603                            5.3050    -3.3275   90.0000  top
+R9        50R             R_0603                            5.2450    -3.3275   90.0000  top
+R10       50R             R_0603                            5.1850    -3.3275   90.0000  top
+R11       50R             R_0603                            5.1250    -3.3275   90.0000  top
+R12       50R             R_0603                            5.0650    -3.3275   90.0000  top
+U1        SI8661AB-B-IS1  SOIC-16_3.9x9.9mm_Pitch1.27mm     5.2250    -3.0900  270.0000  top
+## End

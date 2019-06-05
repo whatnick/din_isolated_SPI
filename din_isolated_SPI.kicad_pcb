@@ -1162,10 +1162,15 @@
       (net 7 "Net-(U4-Pad10)"))
     (pad 9 thru_hole circle (at 11.43 10.16 180) (size 1.8 1.8) (drill 1.016) (layers *.Cu *.Mask B.SilkS)
       (net 8 "Net-(U4-Pad9)"))
-    (model ${KIPRJMOD}/3dmodels/wemos_d1_mini_pro_board.step
-      (at (xyz 0 0 0))
+    (model ${KIPRJMOD}/3dmodels/PinSocket_1x08_P2.54mm_Vertical.step
+      (offset (xyz 11.2 10.2 -1.7))
       (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
+      (rotate (xyz 0 180 0))
+    )
+    (model ${KIPRJMOD}/3dmodels/PinSocket_1x08_P2.54mm_Vertical.step
+      (offset (xyz -11.2 10.2 -1.7))
+      (scale (xyz 1 1 1))
+      (rotate (xyz 0 180 0))
     )
   )
 

@@ -2,7 +2,7 @@
 <export version="D">
   <design>
     <source>C:\Users\Tisham\Documents\kicad\din_isolated_SPI\din_isolated_SPI.sch</source>
-    <date>10/09/2018 7:27:40 PM</date>
+    <date>25/04/2019 2:12:15 AM</date>
     <tool>Eeschema (2018-02-15 revision 29b28de31)-makepkg</tool>
     <sheet number="1" name="/" tstamps="/">
       <title_block>
@@ -206,7 +206,7 @@
       </pins>
     </libpart>
     <libpart lib="device" part="C_Small">
-      <description>Unpolarized capacitor</description>
+      <description>Unpolarized capacitor, small symbol</description>
       <docs>~</docs>
       <footprints>
         <fp>C_*</fp>
