@@ -1,0 +1,760 @@
+{
+  "source_sha256": "c6f831b37b46a6d9e7e5a380abb491db80ff253bbde58dba4960276e59631a85",
+  "footprints": {
+    "J1": {
+      "at": [
+        "at",
+        "141.732",
+        "89.789",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" thru_hole rect (at 0 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"10\" thru_hole circle (at 18 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"2\" thru_hole circle (at 2 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"3\" thru_hole circle (at 4 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"4\" thru_hole circle (at 6 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"5\" thru_hole circle (at 8 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"6\" thru_hole circle (at 10 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"7\" thru_hole circle (at 12 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"8\" thru_hole circle (at 14 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))",
+        "(pad \"9\" thru_hole circle (at 16 0 180) (size 1.5 1.5) (drill 0.8) (layers \"*.Cu\" \"*.Mask\") (remove_unused_layers no))"
+      ]
+    },
+    "U1": {
+      "at": [
+        "at",
+        "132.715",
+        "78.486",
+        "-90"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -2.7 -4.445 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"10\" smd rect (at 2.7 3.175 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"11\" smd rect (at 2.7 1.905 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"12\" smd rect (at 2.7 0.635 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"13\" smd rect (at 2.7 -0.635 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"14\" smd rect (at 2.7 -1.905 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"15\" smd rect (at 2.7 -3.175 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"16\" smd rect (at 2.7 -4.445 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at -2.7 -3.175 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"3\" smd rect (at -2.7 -1.905 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"4\" smd rect (at -2.7 -0.635 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"5\" smd rect (at -2.7 0.635 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"6\" smd rect (at -2.7 1.905 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"7\" smd rect (at -2.7 3.175 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"8\" smd rect (at -2.7 4.445 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"9\" smd rect (at 2.7 4.445 270) (size 1.5 0.6) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R8": {
+      "at": [
+        "at",
+        "134.747",
+        "84.5185",
+        "90"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R5": {
+      "at": [
+        "at",
+        "139.954",
+        "68.453"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R11": {
+      "at": [
+        "at",
+        "130.175",
+        "84.5185",
+        "90"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R10": {
+      "at": [
+        "at",
+        "131.699",
+        "84.5185",
+        "90"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R9": {
+      "at": [
+        "at",
+        "133.223",
+        "84.5185",
+        "90"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R7": {
+      "at": [
+        "at",
+        "136.271",
+        "84.5185",
+        "90"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R4": {
+      "at": [
+        "at",
+        "139.954",
+        "66.675"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R3": {
+      "at": [
+        "at",
+        "125.286",
+        "70.104",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R2": {
+      "at": [
+        "at",
+        "125.286",
+        "68.5588",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R1": {
+      "at": [
+        "at",
+        "125.286",
+        "65.4685",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R6": {
+      "at": [
+        "at",
+        "125.286",
+        "67.0137",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 180) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "C1": {
+      "at": [
+        "at",
+        "138.684",
+        "83.439"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0) (size 0.8 0.75) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0) (size 0.8 0.75) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "C2": {
+      "at": [
+        "at",
+        "137.732",
+        "73.787"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0) (size 0.8 0.75) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0) (size 0.8 0.75) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "R12": {
+      "at": [
+        "at",
+        "128.651",
+        "84.5185",
+        "90"
+      ],
+      "layer": [
+        "layer",
+        "\"F.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" smd rect (at -0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))",
+        "(pad \"2\" smd rect (at 0.75 0 90) (size 0.5 0.9) (layers \"F.Cu\" \"F.Mask\" \"F.Paste\"))"
+      ]
+    },
+    "U4": {
+      "at": [
+        "at",
+        "132.588",
+        "69.596",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"B.Cu\""
+      ],
+      "pads": [
+        "(pad \"1\" thru_hole circle (at -11.43 -7.62 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"10\" thru_hole circle (at 11.43 7.62 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"11\" thru_hole circle (at 11.43 5.08 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"12\" thru_hole circle (at 11.43 2.54 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"13\" thru_hole circle (at 11.43 0 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"14\" thru_hole circle (at 11.43 -2.54 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"15\" thru_hole circle (at 11.43 -5.08 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"16\" thru_hole circle (at 11.43 -7.62 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"2\" thru_hole circle (at -11.43 -5.08 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"3\" thru_hole circle (at -11.43 -2.54 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"4\" thru_hole circle (at -11.43 0 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"5\" thru_hole circle (at -11.43 2.54 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"6\" thru_hole circle (at -11.43 5.08 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"7\" thru_hole circle (at -11.43 7.62 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"8\" thru_hole circle (at -11.43 10.16 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))",
+        "(pad \"9\" thru_hole circle (at 11.43 10.16 180) (size 1.8 1.8) (drill 1.016) (layers \"*.Cu\" \"*.Mask\" \"B.SilkS\") (remove_unused_layers no))"
+      ]
+    },
+    "G1": {
+      "at": [
+        "at",
+        "132.588",
+        "59.309",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"B.Cu\""
+      ],
+      "pads": []
+    },
+    "LOGO1": {
+      "at": [
+        "at",
+        "132.842",
+        "66.04",
+        "180"
+      ],
+      "layer": [
+        "layer",
+        "\"B.Cu\""
+      ],
+      "pads": []
+    }
+  },
+  "net_memberships": [
+    [
+      "C1.1",
+      "J1.10",
+      "U1.16"
+    ],
+    [
+      "C1.2",
+      "J1.9",
+      "U1.9"
+    ],
+    [
+      "C2.1",
+      "J1.1",
+      "U1.1",
+      "U4.16"
+    ],
+    [
+      "C2.2",
+      "J1.2",
+      "U1.8",
+      "U4.2"
+    ],
+    [
+      "J1.3",
+      "R11.1"
+    ],
+    [
+      "J1.4",
+      "R9.1"
+    ],
+    [
+      "J1.5",
+      "R7.1"
+    ],
+    [
+      "J1.6",
+      "R12.1"
+    ],
+    [
+      "J1.7",
+      "R8.1"
+    ],
+    [
+      "J1.8",
+      "R10.1"
+    ],
+    [
+      "R1.1",
+      "U1.2"
+    ],
+    [
+      "R1.2",
+      "U4.12"
+    ],
+    [
+      "R10.2",
+      "U1.12"
+    ],
+    [
+      "R11.2",
+      "U1.11"
+    ],
+    [
+      "R12.2",
+      "U1.10"
+    ],
+    [
+      "R2.1",
+      "U1.3"
+    ],
+    [
+      "R2.2",
+      "U4.14"
+    ],
+    [
+      "R3.1",
+      "U1.4"
+    ],
+    [
+      "R3.2",
+      "U4.15"
+    ],
+    [
+      "R4.1",
+      "U1.5"
+    ],
+    [
+      "R4.2",
+      "U4.4"
+    ],
+    [
+      "R5.1",
+      "U1.6"
+    ],
+    [
+      "R5.2",
+      "U4.3"
+    ],
+    [
+      "R6.1",
+      "U1.7"
+    ],
+    [
+      "R6.2",
+      "U4.13"
+    ],
+    [
+      "R7.2",
+      "U1.15"
+    ],
+    [
+      "R8.2",
+      "U1.14"
+    ],
+    [
+      "R9.2",
+      "U1.13"
+    ],
+    [
+      "U4.1"
+    ],
+    [
+      "U4.10"
+    ],
+    [
+      "U4.11"
+    ],
+    [
+      "U4.5"
+    ],
+    [
+      "U4.6"
+    ],
+    [
+      "U4.7"
+    ],
+    [
+      "U4.8"
+    ],
+    [
+      "U4.9"
+    ]
+  ],
+  "slot_edges": [
+    [
+      [
+        "127",
+        "77.47"
+      ],
+      [
+        "138.43",
+        "77.47"
+      ]
+    ],
+    [
+      [
+        "127",
+        "79.502"
+      ],
+      [
+        "127",
+        "77.47"
+      ]
+    ],
+    [
+      [
+        "138.43",
+        "77.47"
+      ],
+      [
+        "138.43",
+        "79.502"
+      ]
+    ],
+    [
+      [
+        "138.43",
+        "79.502"
+      ],
+      [
+        "127",
+        "79.502"
+      ]
+    ]
+  ],
+  "removed_routes": [
+    "(segment (start 127.635 68.58) (end 127.762 68.58) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 127.762 70.104) (end 127.889 70.104) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]"
+  ],
+  "route_geometry": [
+    "(segment (start 118.872 71.247) (end 118.872 73.787) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 118.872 73.787) (end 118.872 76.327) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 118.872 76.327) (end 118.872 77.372002) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 118.872 77.372002) (end 120.365999 78.866001) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 120.365999 78.866001) (end 121.950001 78.866001) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 121.158 67.056) (end 122.7455 65.4685) (width 0.25) (layer \"F.Cu\")) [\"R1.2\",\"U4.12\"]",
+    "(segment (start 121.158 69.596) (end 122.057999 68.696001) (width 0.25) (layer \"F.Cu\")) [\"R6.2\",\"U4.13\"]",
+    "(segment (start 121.158 71.4368) (end 121.158 72.136) (width 0.25) (layer \"F.Cu\")) [\"R2.2\",\"U4.14\"]",
+    "(segment (start 121.158 77.118002) (end 123.238001 75.038001) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 121.158 77.216) (end 121.158 77.118002) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 121.950001 78.866001) (end 122.808001 78.008001) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 122.057999 68.061001) (end 123.1053 67.0137) (width 0.25) (layer \"F.Cu\")) [\"R6.2\",\"U4.13\"]",
+    "(segment (start 122.057999 68.696001) (end 122.057999 68.061001) (width 0.25) (layer \"F.Cu\")) [\"R6.2\",\"U4.13\"]",
+    "(segment (start 122.7455 65.4685) (end 124.536 65.4685) (width 0.25) (layer \"F.Cu\")) [\"R1.2\",\"U4.12\"]",
+    "(segment (start 122.808001 76.88223) (end 123.363231 76.327) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 122.808001 78.008001) (end 122.808001 76.88223) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 123.1053 67.0137) (end 124.536 67.0137) (width 0.25) (layer \"F.Cu\")) [\"R6.2\",\"U4.13\"]",
+    "(segment (start 123.238001 75.038001) (end 140.443001 75.038001) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 123.363231 76.327) (end 123.952 76.327) (width 0.5) (layer \"B.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 123.444 70.104) (end 123.444 72.39) (width 0.25) (layer \"F.Cu\")) [\"R3.2\",\"U4.15\"]",
+    "(segment (start 123.444 72.39) (end 121.158 74.676) (width 0.25) (layer \"F.Cu\")) [\"R3.2\",\"U4.15\"]",
+    "(segment (start 123.732 88.72834) (end 130.545374 81.914966) (width 0.5) (layer \"B.Cu\")) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(segment (start 123.732 89.789) (end 123.732 88.72834) (width 0.5) (layer \"B.Cu\")) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(segment (start 124.036 68.5588) (end 121.158 71.4368) (width 0.25) (layer \"F.Cu\")) [\"R2.2\",\"U4.14\"]",
+    "(segment (start 124.536 68.5588) (end 124.036 68.5588) (width 0.25) (layer \"F.Cu\")) [\"R2.2\",\"U4.14\"]",
+    "(segment (start 124.536 70.104) (end 123.444 70.104) (width 0.25) (layer \"F.Cu\")) [\"R3.2\",\"U4.15\"]",
+    "(segment (start 125.547773 86.086205) (end 125.147774 85.686206) (width 0.5) (layer \"F.Cu\")) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(segment (start 125.732 86.270432) (end 125.547773 86.086205) (width 0.5) (layer \"F.Cu\")) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(segment (start 125.732 89.789) (end 125.732 86.270432) (width 0.5) (layer \"F.Cu\")) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(segment (start 126.036 65.4685) (end 128.333502 65.4685) (width 0.25) (layer \"F.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 126.036 67.0137) (end 127.3387 67.0137) (width 0.25) (layer \"F.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 126.036 68.5588) (end 126.536 68.5588) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 126.036 70.104) (end 127.889 70.104) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 126.536 68.5588) (end 126.5572 68.58) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 126.5572 68.58) (end 127.635 68.58) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 127.3387 67.0137) (end 127.362001 67.037001) (width 0.25) (layer \"F.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 127.362001 67.037001) (end 127.762 67.437) (width 0.25) (layer \"F.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 127.635 68.58) (end 127.762 68.58) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 127.635 68.58) (end 129.031996 68.58) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 127.732 89.789) (end 130.119022 87.401978) (width 0.25) (layer \"B.Cu\")) [\"J1.8\",\"R10.1\"]",
+    "(segment (start 127.762 70.104) (end 127.889 70.104) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 127.762 70.681303) (end 127.762 67.437) (width 0.25) (layer \"B.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 127.762 71.246988) (end 127.762 70.681303) (width 0.25) (layer \"B.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 127.889 70.104) (end 128.454681 70.104) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 128.161999 71.646987) (end 127.762 71.246988) (width 0.25) (layer \"F.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 128.333502 65.4685) (end 128.632001 65.766999) (width 0.25) (layer \"F.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 128.454681 70.104) (end 129.032 70.681319) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 128.632001 65.766999) (end 129.032 66.166998) (width 0.25) (layer \"F.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 128.651 85.2685) (end 128.651 86.710108) (width 0.25) (layer \"F.Cu\")) [\"J1.6\",\"R12.1\"]",
+    "(segment (start 128.651 86.710108) (end 131.729892 89.789) (width 0.25) (layer \"F.Cu\")) [\"J1.6\",\"R12.1\"]",
+    "(segment (start 128.851 83.7685) (end 128.651 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R12.2\",\"U1.10\"]",
+    "(segment (start 129.032 70.681319) (end 129.032 71.247004) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 129.431995 68.979999) (end 129.031996 68.58) (width 0.25) (layer \"B.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 129.431999 71.647003) (end 129.032 71.247004) (width 0.25) (layer \"B.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 129.54 73.024988) (end 128.161999 71.646987) (width 0.25) (layer \"F.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 129.54 75.786) (end 129.54 73.024988) (width 0.25) (layer \"F.Cu\")) [\"R6.1\",\"U1.7\"]",
+    "(segment (start 129.54 81.186) (end 129.54 83.0795) (width 0.25) (layer \"F.Cu\")) [\"R12.2\",\"U1.10\"]",
+    "(segment (start 129.54 83.0795) (end 128.851 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R12.2\",\"U1.10\"]",
+    "(segment (start 129.597685 66.166998) (end 129.032 66.166998) (width 0.25) (layer \"B.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 129.732 89.789) (end 132.145 87.376) (width 0.25) (layer \"B.Cu\")) [\"J1.7\",\"R8.1\"]",
+    "(segment (start 130.119022 87.401978) (end 130.349027 87.401978) (width 0.25) (layer \"B.Cu\")) [\"J1.8\",\"R10.1\"]",
+    "(segment (start 130.175 87.668408) (end 130.175 85.2685) (width 0.25) (layer \"F.Cu\")) [\"J1.3\",\"R11.1\"]",
+    "(segment (start 130.302 72.517004) (end 129.431999 71.647003) (width 0.25) (layer \"B.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 130.302008 67.493669) (end 130.302008 67.437) (width 0.25) (layer \"B.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 130.349027 87.401978) (end 130.914712 87.401978) (width 0.25) (layer \"B.Cu\")) [\"J1.8\",\"R10.1\"]",
+    "(segment (start 130.375 83.7685) (end 130.175 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R11.2\",\"U1.11\"]",
+    "(segment (start 130.545374 81.914966) (end 136.594315 81.914966) (width 0.5) (layer \"B.Cu\")) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(segment (start 130.702007 67.037001) (end 130.302008 67.437) (width 0.25) (layer \"F.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 130.81 68.469996) (end 130.81 74.786) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 130.81 74.786) (end 130.81 75.786) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 130.81 81.186) (end 130.81 83.1335) (width 0.25) (layer \"F.Cu\")) [\"R11.2\",\"U1.11\"]",
+    "(segment (start 130.81 83.1335) (end 130.875 83.1985) (width 0.25) (layer \"F.Cu\")) [\"R11.2\",\"U1.11\"]",
+    "(segment (start 130.875 83.1985) (end 130.875 83.2685) (width 0.25) (layer \"F.Cu\")) [\"R11.2\",\"U1.11\"]",
+    "(segment (start 130.875 83.2685) (end 130.375 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R11.2\",\"U1.11\"]",
+    "(segment (start 131.025592 88.519) (end 130.175 87.668408) (width 0.25) (layer \"F.Cu\")) [\"J1.3\",\"R11.1\"]",
+    "(segment (start 131.064008 66.675) (end 130.702007 67.037001) (width 0.25) (layer \"F.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 131.167994 68.112002) (end 130.81 68.469996) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 131.314711 87.001979) (end 130.914712 87.401978) (width 0.25) (layer \"F.Cu\")) [\"J1.8\",\"R10.1\"]",
+    "(segment (start 131.515002 68.112002) (end 131.167994 68.112002) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 131.591054 68.782715) (end 130.302008 67.493669) (width 0.25) (layer \"B.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 131.698996 71.247) (end 129.431995 68.979999) (width 0.25) (layer \"B.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 131.699 85.2685) (end 131.699 86.61769) (width 0.25) (layer \"F.Cu\")) [\"J1.8\",\"R10.1\"]",
+    "(segment (start 131.699 86.61769) (end 131.314711 87.001979) (width 0.25) (layer \"F.Cu\")) [\"J1.8\",\"R10.1\"]",
+    "(segment (start 131.729892 89.789) (end 131.732 89.789) (width 0.25) (layer \"F.Cu\")) [\"J1.6\",\"R12.1\"]",
+    "(segment (start 131.874004 67.753) (end 131.515002 68.112002) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 131.912998 87.178998) (end 131.912998 88.081007) (width 0.25) (layer \"F.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 131.912998 88.081007) (end 131.95098 88.118989) (width 0.25) (layer \"F.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 131.95098 88.118989) (end 133.750011 88.118989) (width 0.25) (layer \"F.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 131.991053 69.182714) (end 131.591054 68.782715) (width 0.25) (layer \"F.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 132.063 66.166998) (end 129.597685 66.166998) (width 0.25) (layer \"B.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 132.08 69.271661) (end 131.991053 69.182714) (width 0.25) (layer \"F.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 132.08 75.786) (end 132.08 69.271661) (width 0.25) (layer \"F.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 132.08 81.186) (end 132.08 83.3875) (width 0.25) (layer \"F.Cu\")) [\"R10.2\",\"U1.12\"]",
+    "(segment (start 132.08 83.3875) (end 131.699 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R10.2\",\"U1.12\"]",
+    "(segment (start 132.145 87.376) (end 132.149315 87.376) (width 0.25) (layer \"B.Cu\")) [\"J1.7\",\"R8.1\"]",
+    "(segment (start 132.149315 87.376) (end 132.715 87.376) (width 0.25) (layer \"B.Cu\")) [\"J1.7\",\"R8.1\"]",
+    "(segment (start 132.715 87.1005) (end 132.715 87.376) (width 0.25) (layer \"F.Cu\")) [\"J1.7\",\"R8.1\"]",
+    "(segment (start 132.842 66.945998) (end 132.063 66.166998) (width 0.25) (layer \"B.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 132.842 69.977) (end 132.842 66.945998) (width 0.25) (layer \"B.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 132.842 72.517004) (end 130.302 72.517004) (width 0.25) (layer \"B.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 133.223 85.2685) (end 133.223 85.868996) (width 0.25) (layer \"F.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 133.223 85.868996) (end 131.912998 87.178998) (width 0.25) (layer \"F.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 133.241999 72.917003) (end 132.842 72.517004) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 133.35 73.025004) (end 133.241999 72.917003) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 133.35 75.786) (end 133.35 73.025004) (width 0.25) (layer \"F.Cu\")) [\"R3.1\",\"U1.4\"]",
+    "(segment (start 133.35 81.186) (end 133.35 83.6415) (width 0.25) (layer \"F.Cu\")) [\"R9.2\",\"U1.13\"]",
+    "(segment (start 133.35 83.6415) (end 133.223 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R9.2\",\"U1.13\"]",
+    "(segment (start 133.407685 69.977) (end 132.842 69.977) (width 0.25) (layer \"F.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 133.732 87.010998) (end 134.041999 86.700999) (width 0.25) (layer \"B.Cu\")) [\"J1.5\",\"R7.1\"]",
+    "(segment (start 133.732 89.789) (end 133.732 87.010998) (width 0.25) (layer \"B.Cu\")) [\"J1.5\",\"R7.1\"]",
+    "(segment (start 133.750011 88.118989) (end 134.093001 87.775999) (width 0.25) (layer \"F.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 134.041999 86.700999) (end 135.468999 86.700999) (width 0.25) (layer \"B.Cu\")) [\"J1.5\",\"R7.1\"]",
+    "(segment (start 134.093001 87.775999) (end 134.493 87.376) (width 0.25) (layer \"F.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 134.11199 71.247) (end 131.698996 71.247) (width 0.25) (layer \"B.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 134.130989 71.228001) (end 134.11199 71.247) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 134.220001 71.228001) (end 134.130989 71.228001) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 134.349002 69.977) (end 133.407685 69.977) (width 0.25) (layer \"F.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 134.547 85.2685) (end 132.715 87.1005) (width 0.25) (layer \"F.Cu\")) [\"J1.7\",\"R8.1\"]",
+    "(segment (start 134.62 71.628) (end 134.220001 71.228001) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 134.62 75.786) (end 134.62 71.628) (width 0.25) (layer \"F.Cu\")) [\"R2.1\",\"U1.3\"]",
+    "(segment (start 134.62 81.186) (end 134.62 83.6415) (width 0.25) (layer \"F.Cu\")) [\"R8.2\",\"U1.14\"]",
+    "(segment (start 134.62 83.6415) (end 134.747 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R8.2\",\"U1.14\"]",
+    "(segment (start 134.747 85.2685) (end 134.547 85.2685) (width 0.25) (layer \"F.Cu\")) [\"J1.7\",\"R8.1\"]",
+    "(segment (start 134.892999 87.775999) (end 134.493 87.376) (width 0.25) (layer \"B.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 135.468999 86.700999) (end 135.744001 86.976001) (width 0.25) (layer \"B.Cu\")) [\"J1.5\",\"R7.1\"]",
+    "(segment (start 135.732 88.615) (end 134.892999 87.775999) (width 0.25) (layer \"B.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 135.732 89.789) (end 135.732 88.615) (width 0.25) (layer \"B.Cu\")) [\"J1.4\",\"R9.1\"]",
+    "(segment (start 135.744001 86.976001) (end 136.144 87.376) (width 0.25) (layer \"B.Cu\")) [\"J1.5\",\"R7.1\"]",
+    "(segment (start 135.89 71.517998) (end 134.349002 69.977) (width 0.25) (layer \"F.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 135.89 75.786) (end 135.89 71.517998) (width 0.25) (layer \"F.Cu\")) [\"R1.1\",\"U1.2\"]",
+    "(segment (start 135.89 81.186) (end 135.89 83.3875) (width 0.25) (layer \"F.Cu\")) [\"R7.2\",\"U1.15\"]",
+    "(segment (start 135.89 83.3875) (end 136.271 83.7685) (width 0.25) (layer \"F.Cu\")) [\"R7.2\",\"U1.15\"]",
+    "(segment (start 136.271 85.2685) (end 136.271 87.249) (width 0.25) (layer \"F.Cu\")) [\"J1.5\",\"R7.1\"]",
+    "(segment (start 136.271 87.249) (end 136.144 87.376) (width 0.25) (layer \"F.Cu\")) [\"J1.5\",\"R7.1\"]",
+    "(segment (start 136.462 88.519) (end 131.025592 88.519) (width 0.25) (layer \"F.Cu\")) [\"J1.3\",\"R11.1\"]",
+    "(segment (start 136.594315 81.914966) (end 137.16 81.914966) (width 0.5) (layer \"B.Cu\")) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(segment (start 136.982 74.912) (end 136.982 73.787) (width 0.5) (layer \"F.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 137.16 81.186) (end 137.16 82.665) (width 0.5) (layer \"F.Cu\")) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(segment (start 137.16 82.665) (end 137.934 83.439) (width 0.5) (layer \"F.Cu\")) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(segment (start 137.284966 81.914966) (end 137.16 81.914966) (width 0.5) (layer \"F.Cu\")) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(segment (start 137.508 75.438) (end 136.982 74.912) (width 0.5) (layer \"F.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 137.508 75.438) (end 137.16 75.786) (width 0.5) (layer \"F.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 137.732 89.789) (end 136.462 88.519) (width 0.25) (layer \"F.Cu\")) [\"J1.3\",\"R11.1\"]",
+    "(segment (start 138.004 67.753) (end 131.874004 67.753) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 138.186689 85.288635) (end 137.621004 85.288635) (width 0.5) (layer \"F.Cu\")) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(segment (start 138.459365 85.288635) (end 138.186689 85.288635) (width 0.5) (layer \"F.Cu\")) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(segment (start 138.704 68.453) (end 138.004 67.753) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 139.204 66.675) (end 131.064008 66.675) (width 0.25) (layer \"F.Cu\")) [\"R4.1\",\"U1.5\"]",
+    "(segment (start 139.204 68.453) (end 138.704 68.453) (width 0.25) (layer \"F.Cu\")) [\"R5.1\",\"U1.6\"]",
+    "(segment (start 139.434 83.439) (end 139.434 84.314) (width 0.5) (layer \"F.Cu\")) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(segment (start 139.434 84.314) (end 138.459365 85.288635) (width 0.5) (layer \"F.Cu\")) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(segment (start 139.732 88.72834) (end 142.367999 86.092341) (width 0.5) (layer \"F.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 139.732 89.789) (end 139.732 88.72834) (width 0.5) (layer \"F.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 140.443001 75.038001) (end 140.843 75.438) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 140.704 66.675) (end 140.704 66.875) (width 0.25) (layer \"F.Cu\")) [\"R4.2\",\"U4.4\"]",
+    "(segment (start 140.704 66.875) (end 143.425 69.596) (width 0.25) (layer \"F.Cu\")) [\"R4.2\",\"U4.4\"]",
+    "(segment (start 140.704 68.453) (end 140.704 68.653) (width 0.25) (layer \"F.Cu\")) [\"R5.2\",\"U4.3\"]",
+    "(segment (start 140.704 68.653) (end 144.018 71.967) (width 0.25) (layer \"F.Cu\")) [\"R5.2\",\"U4.3\"]",
+    "(segment (start 140.843 75.438) (end 137.508 75.438) (width 0.5) (layer \"F.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 141.732 88.539) (end 142.24 88.031) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 141.732 89.789) (end 141.732 88.539) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 142.24 76.835) (end 140.843 75.438) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 142.24 88.031) (end 142.24 76.835) (width 0.5) (layer \"B.Cu\")) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(segment (start 142.367999 76.326001) (end 143.118001 75.575999) (width 0.5) (layer \"F.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 142.367999 86.092341) (end 142.367999 76.326001) (width 0.5) (layer \"F.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 143.118001 75.575999) (end 144.018 74.676) (width 0.5) (layer \"F.Cu\")) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(segment (start 143.425 69.596) (end 144.018 69.596) (width 0.25) (layer \"F.Cu\")) [\"R4.2\",\"U4.4\"]",
+    "(segment (start 144.018 71.967) (end 144.018 72.136) (width 0.25) (layer \"F.Cu\")) [\"R5.2\",\"U4.3\"]",
+    "(via (at 118.872 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 56.007) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 58.547) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 61.087) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 63.627) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 66.167) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 68.707) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 71.247) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 73.787) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 118.872 76.327) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 121.412 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 123.952 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 123.952 76.327) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 125.147774 85.686206) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(via (at 125.222 81.534) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(via (at 125.222 83.947) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(via (at 126.492 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 127.762 67.437) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R6.1\",\"U1.7\"]",
+    "(via (at 127.762 71.246988) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R6.1\",\"U1.7\"]",
+    "(via (at 129.031996 68.58) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R2.1\",\"U1.3\"]",
+    "(via (at 129.032 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 129.032 66.166998) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R1.1\",\"U1.2\"]",
+    "(via (at 129.032 71.247004) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R3.1\",\"U1.4\"]",
+    "(via (at 130.302008 67.437) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R4.1\",\"U1.5\"]",
+    "(via (at 130.914712 87.401978) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"J1.8\",\"R10.1\"]",
+    "(via (at 131.445 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 131.591054 68.782715) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R4.1\",\"U1.5\"]",
+    "(via (at 132.715 87.376) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"J1.7\",\"R8.1\"]",
+    "(via (at 132.842 69.977) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R1.1\",\"U1.2\"]",
+    "(via (at 132.842 72.517004) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R3.1\",\"U1.4\"]",
+    "(via (at 134.11199 71.247) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"R2.1\",\"U1.3\"]",
+    "(via (at 134.112 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 134.493 87.376) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"J1.4\",\"R9.1\"]",
+    "(via (at 136.144 87.376) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"J1.5\",\"R7.1\"]",
+    "(via (at 136.652 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 137.16 81.914966) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C1.1\",\"J1.10\",\"U1.16\"]",
+    "(via (at 137.621004 85.288635) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C1.2\",\"J1.9\",\"U1.9\"]",
+    "(via (at 139.192 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 140.843 75.438) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.1\",\"J1.1\",\"U1.1\",\"U4.16\"]",
+    "(via (at 141.732 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 144.272 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 53.467) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 56.007) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 58.547) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 61.087) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 63.627) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 66.167) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 68.707) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 71.247) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 73.787) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]",
+    "(via (at 146.812 76.327) (size 0.8) (drill 0.4) (layers \"F.Cu\" \"B.Cu\") (capping no) (covering (front no) (back no)) (plugging (front no) (back no)) (filling no)) [\"C2.2\",\"J1.2\",\"U1.8\",\"U4.2\"]"
+  ],
+  "edges": [
+    "(gr_arc (start 116.84 52.927) (mid 117.425786 51.512786) (end 118.84 50.927))",
+    "(gr_arc (start 118.84 91.44) (mid 117.425786 90.854214) (end 116.84 89.44))",
+    "(gr_arc (start 146.59 50.927) (mid 148.004214 51.512786) (end 148.59 52.927))",
+    "(gr_arc (start 148.59 89.44) (mid 148.004214 90.854214) (end 146.59 91.44))",
+    "(gr_line (start 116.84 89.44) (end 116.84 52.927))",
+    "(gr_line (start 118.84 50.927) (end 146.59 50.927))",
+    "(gr_line (start 127 77.47) (end 138.43 77.47))",
+    "(gr_line (start 127 79.502) (end 127 77.47))",
+    "(gr_line (start 138.43 77.47) (end 138.43 79.502))",
+    "(gr_line (start 138.43 79.502) (end 127 79.502))",
+    "(gr_line (start 146.59 91.44) (end 118.84 91.44))",
+    "(gr_line (start 148.59 52.927) (end 148.59 89.44))"
+  ]
+}

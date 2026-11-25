@@ -1,0 +1,27 @@
+{
+  "kicad_version": "10.0.3",
+  "sha256": {
+    "din_isolated_SPI.kicad_pcb": "2ae4209f5b09aa797294ed6edcf26e378d96af7d00e4f271ce1e13bc153f9d6c",
+    "din_isolated_SPI.kicad_sch": "e3100a72a4ffe54bbcad9160b51f186f32cbac905a1972b444ea43f2bc066e5b",
+    "din_isolated_SPI.kicad_pro": "da731833dc06dff3a26fde893eb6f1269a79e03e77af0f1c487c1d1ed4421e96",
+    "fp-lib-table": "4336a29c69289a5c090687d5fa8dd8daf564b68685cd746413c676a98dc0b44e",
+    "sym-lib-table": "24dbc8b34b884ae63e1b446740d7e96ff7a2461be908fc62ed86f24920531b66",
+    "carrier_power.kicad_sym": "79dcc80f598c54bae8aa2b1a405b432d5cfb0ad271e5c3ff3e8ef3f65f24b3fb",
+    "carrier_symbols.kicad_sym": "d2863ee6f6971d7327c1b1fbf6ac10af9f442aef3f8422e051ea7e171c9a0ece",
+    "validation/source_invariants.json": "4bbd99eda6030e922b62b82b501fce13a77c478b2d09b57541f964e2f0a731bd",
+    "validation/erc.json": "3a2391f10744708c47d1695e7ffe7dcc6288391a2e68261047314160acc1c1c3",
+    "validation/drc.json": "b2877ba375e6635d475e463cb66d56b2db4c1a7fd74ae108cf5c6e5f6bc2e3a1",
+    "mechanical/din_isolated_SPI-v2-board.step": "73699dacada19f65e18d4fd5ed8c94c813235fcca9e312464e75c0673dc8188c",
+    "carrier_legacy.pretty/C_0603.kicad_mod": "103a72d43c3e28d3fbcef59ee0ebbe86b35c56fd45cf4aa3f04b03c1ebf7096f",
+    "carrier_legacy.pretty/Molex_MicroLatch-53253-1070_10x2.00mm_Straight.kicad_mod": "8dfe9673c57f5627a5ad6a64770c42e0960c63c9eaf11a1c8d61ff0fea6b27d3",
+    "carrier_legacy.pretty/OSHW-Symbol_6.7x6mm_SilkScreen.kicad_mod": "82abff89453457389cc14cd00a1123ea2ddeff2f6a52a51fdc502625e7044f51",
+    "carrier_legacy.pretty/R_0603.kicad_mod": "d92e0299557f8647df04a9b4a41767f1f737f79447d1f88995cf77eb00715c51",
+    "carrier_legacy.pretty/SOIC-16_3.9x9.9mm_Pitch1.27mm.kicad_mod": "da397e349bf96f867f3f73492837e433bfea510d930c8d3247254d9fdca7c214",
+    "wemos_d1_mini.pretty/D1_mini_board.kicad_mod": "7830af2a15cbf65847492400ddfcd794028827e1a8d5fe0bd3545955fa5cd3a9",
+    "Whatnick_logo.pretty/Whatnick_logo.kicad_mod": "acfda2388327c960fedb923c456b772cc43c9028b7091b14816aa3676f3bd258"
+  },
+  "erc": 0,
+  "drc": 0,
+  "unconnected": 0,
+  "schematic_parity": 0
+}
